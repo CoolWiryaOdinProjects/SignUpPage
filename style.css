@@ -24,7 +24,7 @@ body {
 }
 
 figcaption {
-    color: rgb(226, 177, 85);
+    color: white;
     text-align: center;
 }
 
@@ -37,6 +37,7 @@ figcaption {
     align-items: center;
     text-align: center;
     font-weight: 1000;
+    color: white;
    
 }
 
