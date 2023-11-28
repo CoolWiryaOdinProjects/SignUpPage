@@ -10,7 +10,7 @@ body {
     height: 97vh;
     display: grid;
     grid-template-columns: minmax(500px,1.3fr)  minmax(100px,2fr);
-    grid-template-rows: 1fr minmax(2fr,3fr) 1fr;
+    grid-template-rows: 0.75fr 1.5fr 0.75fr;
 
 }
 
@@ -49,6 +49,12 @@ figcaption {
     align-items: center;
     contain: content;  
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    contain: content;  
+}
 
 p {
     margin: 30px;
@@ -75,6 +81,11 @@ button {
 }
 span, a{
     font-size: small;
+}
+.svg-img {
+    width:35px; 
+    height:35px;
+    margin-left: 10px;
 }
 
 @media (max-width: 1000px) {

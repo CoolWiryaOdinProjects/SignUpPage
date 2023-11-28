@@ -1,1 +1,1 @@
-# SignUpPage
+# Sign-up page for odin project

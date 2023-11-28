@@ -27,30 +27,30 @@
 
         </div>
         <div class="main">
-            <form class="form-wrapper" action="" > 
+            <form class="form-wrapper" action="https://httpbin.org/post" method="post"> 
                     <div>
-                        <label for="first name"> First Name</label>
-                        <input type="text">
+                        <label for="first_name" required> First Name</label>
+                        <input type="text" id="first_name" name="first_name" required>
                     </div>
                     <div>
-                        <label for="last name">Last Name</label>
-                        <input type="text">
+                        <label for="last_name" >Last Name</label>
+                        <input type="text" id="last_name" name="last_name" required>
                     </div>
                     <div>
                         <label for="email">Email</label>
-                        <input type="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div>
-                        <label for="phone number">Phone Number</label>
-                        <input type="number">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="number" id="phone_number" name="phone_number" required>
                     </div>
                     <div>
                         <label for="password">Password</label>
-                        <input type="password">
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div>
-                        <label for="confirm password">Confirm Password</label>
-                        <input type="password">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" name="confirm_password" required>
                     </div>
                     <div>
                         <button type="submit">Create Account</button>
@@ -65,7 +65,16 @@
             </form>
         </div>
         <div class="footer">
-            <br><br><br><br><br>
+            <a href="https://www.linkedin.com/in/ismailosmanismail">
+                <img class="svg-img" src="4102586_applications_linkedin_social_social media_icon.svg" alt="">
+            </a>
+            <a href="https://www.facebook.com/ismailosmanismail/">
+                <img class="svg-img" src="317727_facebook_social media_social_icon.svg" alt="">
+            </a>
+            <a href="https://www.instagram.com/cool.wirya">
+                <img class="svg-img" src="4102579_applications_instagram_media_social_icon.svg" alt="">
+            </a>
+            
         </div>
     </div>
 </body>
